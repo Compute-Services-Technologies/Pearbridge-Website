@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pearbridge Limited</title>
+    <link rel="icon" type="image/png" href="dd.webp">
+    <style>
+        :root {
+            --primary-color: #007BFF;
+            --secondary-color: #1A1A1D;
+            --accent-color: #00BFFF;
+            --highlight-color: #0056B3;
+            --text-color: #E5E5E5;
+            --white-color: #FFFFFF;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+            color: var(--text-color);
+            text-align: center;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 50px 0;
+            position: relative;
+        }
+
+        header .logo {
+            max-width: 120px;
+            margin: 0 auto;
+        }
+
+        header .logo img {
+            border-radius: 50%;
+            width: 100px;
+            height: auto;
+        }
+
+        header h1 {
+            font-size: 2em;
+            font-family: 'Poppins', sans-serif;
+            letter-spacing: 2px;
+            color: var(--white-color);
+            margin-top: 10px;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        header nav a {
+            text-decoration: none;
+            color: var(--white-color);
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            padding: 10px 20px;
+        }
+
+        header nav a:hover {
+            background-color: var(--highlight-color);
+            color: var(--secondary-color);
+        }
+
+        main {
+            padding: 50px 20px;
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .service-box {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            width: 250px;
+        }
+
+        .service-box h2 {
+            color: var(--white-color);
+            font-size: 1.5em;
+        }
+
+        .service-box p {
+            color: var(--text-color);
+            margin: 10px 0;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: var(--white-color);
+            padding: 20px;
+        }
+
+        footer p {
+            font-size: 1em;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="dd.webp" alt="DKTech Logo">
+        </div>
+        <h1>Pearbridge Limited</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Our Services</h2>
+        <div class="services">
+            <div class="service-box">
+                <h2>Accounting Services</h2>
+                <p>We provide expert accounting services to help you manage your finances effectively.</p>
+            </div>
+            <div class="service-box">
+                <h2>Bookkeeping Services</h2>
+                <p>We offer comprehensive bookkeeping services to help you keep your records accurate and up-to-date.</p>
+            </div>
+            <div class="service-box">
+                <h2>And Much More</h2>
+                <p>We offer a wide range of accounting services to help you succeed in your business.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Pearbridge Limited. All rights reserved.</p>
+    </footer>
+</body>
+</html>
